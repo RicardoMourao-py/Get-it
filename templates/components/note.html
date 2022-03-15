@@ -1,0 +1,24 @@
+<div class="card" key="{id}">
+    <form method="post">
+
+      <input type="hidden" name="method" value="UPDATE" />
+      <input type="hidden" name="id" value="{id}" />
+
+      <input type= "text" value="{title}" name="title" class="card-title inputcard" key="{id}"/>
+      <textarea value="{details}" name="content" class="card-content inputcard" key="{id}">{details}</textarea>
+
+    </form>
+  
+    <form class="card_delete" method="post">
+      <input type="hidden" name="method" value="DELETE"/>
+      <input type="hidden" name="id" value="{id}" />
+      <input type="image" src="img/x.png" class="x"/>
+    </form>
+
+</div>
+
+
+
+
+
+
